@@ -1,63 +1,140 @@
 <div align="center">
 
-# D² Innovation
+<img src="https://github.com/temps-code/Class-Project---Web-Design-II/blob/main/logo.jpg?raw=true" alt="D² Innovation Logo" width="160"/>
 
-<img src="https://github.com/temps-code/Class-Project---Web-Design-2/blob/main/logo.jpg?raw=true" alt="D² Innovation Logo" width="200"/>
+<h1>Todo List — Construction Project Manager</h1>
 
-**Transformamos Ideas en Soluciones de Software**
+<p><strong>A web application to plan, track, and manage construction projects from a single dashboard.</strong></p>
 
-![Repository Size](https://img.shields.io/github/repo-size/temps-code/Class-Project---Web-Design-II?style=for-the-badge) 
-![Last Commit](https://img.shields.io/github/last-commit/temps-code/Class-Project---Web-Design-II?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=323330" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
+</p>
 
 </div>
 
 ---
-## Introducción
 
-Bienvenido al repositorio de nuestro proyecto **Todo List**. Este proyecto es parte de la materia de **Diseño Web 2** en la Universidad Privada Domingo Savio. Nuestra misión en D² Innovation es crear soluciones de software que simplifiquen la vida de nuestros usuarios. Este proyecto refleja esa filosofía, proporcionando una herramienta eficiente y fácil de usar para gestionar tareas.
+📄 Read this in: **English** | [Español](README.es.md)
 
-## Descripción del Proyecto
+---
 
-El **Todo List** es una aplicación web diseñada para ayudar a las personas y equipos a gestionar sus tareas de manera organizada y eficiente. Con una interfaz intuitiva, esta herramienta permite:
+**Academic Project**
+Universidad Privada Domingo Savio — Ing. de Sistemas
+Course: Web Design II — 2024
 
-- Crear, editar y eliminar tareas.
-- Organizar tareas en diferentes categorías.
-- Establecer prioridades y fechas de vencimiento.
-- Marcar tareas como completadas.
+---
 
-Este proyecto está construido con tecnologías como:
+## Table of Contents
+
+- [What It Does](#what-it-does)
+- [Stack](#stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Pages](#pages)
+- [Team](#team)
+
+---
+
+## What It Does
+
+Todo List is a static web application built for construction teams that need to manage multiple projects simultaneously.
+
+**The problem**: construction teams track tasks, costs, and project progress across spreadsheets and sticky notes — scattered, inefficient, and error-prone.
+
+**The solution**: a single web interface that centralizes project management with four dedicated modules.
+
+Key features:
+
+- Create and manage construction projects with descriptions and deadlines
+- Visualize and move tasks across a Kanban board (To Do / In Progress / Done)
+- Track project costs against planned budgets
+- Contact form for team communication
+
+---
+
+## Stack
+
+| Category | Technology | Version |
+|---|---|---|
+| Markup | HTML5 | 5 |
+| Styling | CSS3 | 3 |
+| Styling Framework | Bootstrap | 5.3.3 |
+| Scripting | JavaScript (Vanilla) | ES6+ |
+
+---
+
+## Project Structure
+
+```
+classproject/
+├── index.html          # Home / landing page
+├── proyectos.html      # Projects list and creation
+├── kanban.html         # Task board
+├── costos.html         # Cost tracking
+├── contacto.html       # Contact form
+├── css/
+│   ├── global.css
+│   ├── proyectos.css
+│   ├── kaban.css
+│   └── contacto.css
+└── js/
+    ├── index.js
+    ├── proyectos.js
+    ├── kanban.js
+    ├── costos.js
+    └── contacto.js
+```
+
+---
+
+## Installation
+
+No build step required. This is a fully static project.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/temps-code/Class-Project---Web-Design-II.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd Class-Project---Web-Design-II/classproject
+   ```
+
+3. Open `index.html` in your browser — or serve it locally:
+   ```bash
+   # Using VS Code Live Server extension, or:
+   npx serve .
+   ```
+
+> No dependencies to install. No environment variables required.
+
+---
+
+## Pages
+
+| Page | File | Description |
+|---|---|---|
+| Home | `index.html` | Landing page with project overview and navigation |
+| Projects | `proyectos.html` | Create and browse construction projects |
+| Tasks | `kanban.html` | Kanban board for task management |
+| Cost Tracking | `costos.html` | Monitor expenses vs. planned budget |
+| Contact | `contacto.html` | Team contact form |
+
+---
+
+## Team
+
+| Member | Role |
+|---|---|
+| Diego Vargas | Frontend Developer |
+| Damaris Mamani | Frontend Developer |
+
+---
 
 <div align="center">
-  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
-
-</div>
-
-## Entorno de Desarrollo
-
-Este proyecto se desarrolla utilizando las siguientes herramientas y entornos:
-
-<div align="center">
-  
-![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
-</div>
-
-## Contacto y Redes Sociales
-
-Estamos disponibles en las siguientes plataformas:
-
-<div align="center">
-  
-![Email](https://img.shields.io/badge/Email-contacto%40d2innovation.com-red?style=for-the-badge) ![LinkedIn](https://img.shields.io/badge/LinkedIn-D2%20Innovation-blue?style=for-the-badge&logo=linkedin) ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
-
-</div>
-
-## Encuesta de Características
-
-Estamos comprometidos en desarrollar un software que realmente responda a las necesidades del sector. Por favor, ayúdanos a mejorar respondiendo a nuestra breve encuesta:
-<div align="center">
-
-[![Formulario](https://img.shields.io/badge/Formulario-Completar-brightgreen?style=for-the-badge&logo=google&logoColor=white)](https://forms.gle/V6DeFqCdXVpgcrPy9)
-
+<img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT">
 </div>
